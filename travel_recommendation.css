@@ -1,0 +1,367 @@
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav{
+
+    background:#102936;
+
+    height:70px;
+
+    padding:0 40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo h1{
+
+    color:white;
+    
+    font-size:22px;
+
+    font-style:italic;
+
+    font-weight:500;
+}
+
+/* =========================
+   MENU
+========================= */
+
+nav ul{
+
+    display:flex;
+
+    align-items:center;
+
+    list-style:none;
+
+    gap:35px;
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+nav a:hover{
+
+    color:#8ed6ff;
+}
+
+/* =========================
+   BARRA DE PESQUISA
+========================= */
+
+.search-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:white;
+
+    padding:8px 12px;
+
+    border-radius:35px;
+
+    margin-left:40px;
+}
+
+#searchBar{
+
+    width:280px;
+
+    border:none;
+
+    outline:none;
+
+    font-size:15px;
+
+    padding:6px;
+}
+
+#searchBar::placeholder{
+
+    color:#666;
+}
+
+/* =========================
+   BOTÕES
+========================= */
+
+#btnSearch,
+#btnResetSearch{
+
+    background:#138a8d;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+#btnSearch:hover,
+#btnResetSearch:hover{
+
+    background:#0f6f72;
+}
+
+/* =========================
+   Imagem de fundo
+========================= */
+.hero{
+
+    height:calc(100vh - 70px);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('city-night.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+}
+/* =========================
+   Estilização do sidebar
+========================= */
+.social-sidebar {
+    position: absolute;
+    left: 30px;
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .social-sidebar a {
+    color: white;
+    font-size: 22px;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .social-sidebar a:hover {
+    color: #8ed6ff;
+    transform: scale(1.2);
+  }
+/* =========================
+   texto da home
+========================= */
+.hero-content{
+
+    width:520px;
+
+    margin-left:90px;
+
+    color:white;
+}
+
+/* =========================
+   titulo da home
+========================= */
+.hero-content h2{
+
+    font-size:64px;
+
+    font-weight:700;
+
+    line-height:1.05;
+
+    text-transform:uppercase;
+
+    margin-bottom:35px;
+}
+
+/* =========================
+   Paragrafo da home
+========================= */
+.hero-content p{
+
+    width:470px;
+
+    font-size:22px;
+
+    line-height:1.5;
+
+    margin-bottom:35px;
+
+    color:white;
+}
+
+/* =========================
+   Botão da home
+========================= */
+
+.hero-content button{
+
+    background:#0a7f77;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 30px;
+
+    font-size:17px;
+
+    border-radius:4px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.hero-content button:hover{
+
+    background:#086660;
+}
+
+/* Título ABOUT US */
+.about-title {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    color:white
+  }
+  
+  /* Bloco Transparente com Descrição */
+  .about-description-box {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 50px;
+    color:white
+  }
+  
+  .about-description-box p {
+    color:white;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-description-box p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Seção Our Team */
+  .team-section {
+    color:white;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(4px);
+    padding: 35px 30px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .team-title {
+    color:white;
+    font-size: 54px;
+    line-height: 1.05;
+    font-weight: 700;
+    min-width: 160px;
+  }
+  
+  /* Grid de Cards */
+  .team-cards {
+    display: flex;
+    gap: 25px;
+    flex-grow: 1;
+  }
+  
+  .team-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Ícone de Avatar */
+  .team-card .avatar {
+    background: white;
+    color: #102936;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .team-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .team-card p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #e0e0e0;
+    margin-bottom: 16px;
+    min-height: 42px;
+  }
+  
+  /* Badge dos Cargos (CEO, Team Lead, etc.) */
+  .role-badge {
+    background: #103b54;
+    color: white;
+    border: 1px solid #206188;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
