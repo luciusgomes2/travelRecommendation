@@ -365,3 +365,313 @@ nav a:hover{
     font-size: 14px;
     font-weight: 600;
   }
+
+
+
+ /* Fundo da pagina de contato*/
+  .contact-page{
+
+    height:calc(100vh - 70px);
+
+    background-image:url("./images/background.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 80px;
+}
+
+/* Texto da esquerda */
+.contact-info{
+
+    color:white;
+
+    width:500px;
+
+    margin-left:60px;
+}
+
+.contact-info h2{
+
+    font-size:72px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+}
+
+.contact-info p{
+
+    font-size:30px;
+}
+
+/* Formulario */
+.contact-form{
+
+    width:430px;
+
+    background:rgba(0,0,0,.35);
+
+    padding:35px;
+
+    border-radius:8px;
+
+    backdrop-filter:blur(3px);
+}
+
+/* labels */
+.contact-form label{
+
+    display:block;
+
+    color:white;
+
+    margin-bottom:8px;
+
+    margin-top:18px;
+
+    font-size:16px;
+}
+
+/* inputs */
+.contact-form input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid rgba(255,255,255,.4);
+
+    border-radius:5px;
+
+    background:transparent;
+
+    color:white;
+
+    outline:none;
+}
+
+/* textarea */
+
+.contact-form textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    resize:none;
+
+    border-radius:5px;
+
+    border:1px solid rgba(255,255,255,.4);
+
+    background:transparent;
+
+    color:white;
+
+    outline:none;
+}
+
+/* Placeholder */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+
+    color:#d9d9d9;
+}
+
+/* Botão */
+
+.contact-form button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:5px;
+
+    background:#0d8b83;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.contact-form button:hover{
+
+    background:#0b6f69;
+}
+
+
+/* Icones laterais */
+.social-icons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    margin-right:40px;
+}
+
+.social-icons img{
+
+    width:28px;
+}
+/* fundo da pagina contato*/
+.contact{
+
+    width:100%;
+
+    height:calc(100vh - 70px);
+
+    background-image:url("./city-night.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 80px;
+
+    position:relative;
+}
+/* textos pagina contato */
+.contact-text{
+
+    color:white;
+
+    width:45%;
+}
+/* titulo pagina contato */
+.contact-text h1{
+
+    font-size:78px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+}
+/* paragrafos pagina contato */
+.contact-text p{
+
+    font-size:34px;
+}
+
+/* formulario da pagina contato */
+.contact-form{
+
+    width:430px;
+
+    padding:35px;
+
+    background:rgba(0,0,0,.35);
+
+    border-radius:8px;
+
+    backdrop-filter:blur(4px);
+}
+/* label da pagina contato */
+.contact-form label{
+
+    display:block;
+
+    color:white;
+
+    margin-bottom:8px;
+
+    margin-top:18px;
+}
+
+/* inputs da pagina contato */
+
+.contact-form input{
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:5px;
+
+    border:1px solid rgba(255,255,255,.4);
+
+    background:transparent;
+
+    color:white;
+
+    outline:none;
+}
+
+/* textarea da pagina contato */
+.contact-form textarea{
+
+    width:100%;
+
+    height:120px;
+
+    resize:none;
+
+    padding:12px;
+
+    border-radius:5px;
+
+    border:1px solid rgba(255,255,255,.4);
+
+    background:transparent;
+
+    color:white;
+
+    outline:none;
+}
+
+/* placeholder da pagina contato */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+
+    color:#d9d9d9;
+}
+
+/* botão da pagina contato */
+
+.contact-form button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:5px;
+
+    background:#0b8c85;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
