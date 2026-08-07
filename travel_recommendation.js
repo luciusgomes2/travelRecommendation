@@ -36,7 +36,7 @@ function createCard(place){
 }
 
 async function searchRecommendation(){
-
+    if (!results) return;
     results.innerHTML="";
 
     const data = await getTravelData();
@@ -104,7 +104,8 @@ searchInput.addEventListener("keydown",function(e){
 btnClear.addEventListener("click",()=>{
 
     searchInput.value="";
-
+if (results){
     results.innerHTML="";
+}
 
 });

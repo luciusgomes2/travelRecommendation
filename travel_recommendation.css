@@ -767,3 +767,23 @@ nav a:hover{
 
     border-radius:5px;
 }
+
+#searchResults {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: 80px; /* Dá um espaço da borda direita */
+    max-height: 80vh; /* Não deixa passar da tela */
+    overflow-y: auto; /* Adiciona barra de rolagem se precisar */
+}
+
+/* Deixa a scrollbar mais bonita (opcional) */
+#searchResults::-webkit-scrollbar {
+    width: 8px;
+}
+#searchResults::-webkit-scrollbar-thumb {
+    background-color: #138a8d;
+    border-radius: 4px;
+}
